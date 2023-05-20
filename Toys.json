@@ -1,0 +1,150 @@
+[
+    {
+      "picture": "https://i.ibb.co/BzLrF8f/cube-activity-toy.jpg",
+      "toy_name": "Cube Activity Toy",
+      "sub_category": "Animal Toy",
+      "seller_name": "Amazon",
+      "seller_email": "amazon@example.com",
+      "price": 20.00,
+      "rating": 4.5,
+      "available_quantity": 10,
+      "detail_description": "A cube activity toy is a type of toy that is typically made of cotton and has several different activities on each side. These activities can include things like shape sorters, bead mazes, spinning wheels, and more. Cube activity toys are a great way for toddlers and preschoolers to develop their fine motor skills, problem-solving skills, and cognitive development."
+    },
+    {
+      "picture": "https://i.ibb.co/3yBfXWQ/rocking-fox.jpg",
+      "toy_name": "Rocking Fox",
+      "sub_category": "Animal Toy",
+      "seller_name": "Walmart",
+      "seller_email": "walmart@example.com",
+      "price": 15.00,
+      "rating": 4.0,
+      "available_quantity": 5,
+      "detail_description": "A rocking fox toy is a type of toy that is typically made of plush fabric and has a rocking base. The fox is designed to be sat on and rocked back and forth, which can be a fun and relaxing activity for children of all ages. Rocking fox toys can also help to develop children's balance and coordination."
+    },
+    {
+      "picture": "https://i.ibb.co/bzNVpcQ/shark.webp",
+      "toy_name": "Shark Toy",
+      "sub_category": "Animal Toy",
+      "seller_name": "Target",
+      "seller_email": "target@example.com",
+      "price": 30.00,
+      "rating": 5.0,
+      "available_quantity": 20,
+      "detail_description": "A shark toy is a type of toy that is typically made of plastic or plush fabric and is shaped like a shark. Shark toys can be used for a variety of purposes, including playing, learning, and collecting."
+    },
+    
+    {
+      "picture": "https://i.ibb.co/FhdmX7K/soft-toy-dream-seeker.jpg",
+      "toy_name": "Soft Toy Dream Seaker",
+      "sub_category": "Animal Toy",
+      "seller_name": "Party City",
+      "seller_email": "partycity@example.com",
+      "price": 15.00,
+      "rating": 5.0,
+      "available_quantity": 100,
+      "detail_description": "Dream Seekers are a line of soft toys that were created by Moose Toys in 2022. They are inspired by beautiful rag dolls styling. With fabric bodies and long arms and legs, they can easily be posed so they sit on their Dreamy Moon Packaging. They make the most beautiful display as part of a collection or on their own."
+    },
+    {
+      "picture": "https://i.ibb.co/TLP6HVJ/bird-1.jpg",
+      "toy_name": "Round Bird",
+      "sub_category": "Bird Toy",
+      "seller_name": "Amazon",
+      "seller_email": "amazon@example.com",
+      "price": 50.00,
+      "rating": 4.0,
+      "available_quantity": 5,
+      "detail_description": "Bird toys are a great way to keep your feathered friend entertained and engaged. There are many different types of bird toys available, so you can find one that is perfect for your bird's individual needs and interests."
+    },
+    {
+        "picture": "https://i.ibb.co/QXpCCgJ/bird-2.jpg",
+        "toy_name": "stuffed Parrot",
+        "sub_category": "Bird Toy",
+        "seller_name": "Walmart",
+        "seller_email": "walmart@example.com",
+        "price": 10.00,
+        "rating": 4.5,
+        "available_quantity": 20,
+        "detail_description": "Bird toys are a great way to keep your feathered friend entertained and engaged. There are many different types of bird toys available, so you can find one that is perfect for your bird's individual needs and interests."
+      },
+      
+      {
+        "picture": "https://i.ibb.co/Rpt0Tdf/Parrot-stuffed-bird-6.jpg",
+        "toy_name": "Stuffed Parrot",
+        "sub_category": "Bird Toy",
+        "seller_name": "Toys R Us",
+        "seller_email": "toysrus@example.com",
+        "price": 50.00,
+        "rating": 4.5,
+        "available_quantity": 10,
+        "detail_description": "Bird toys are a great way to keep your feathered friend entertained and engaged. There are many different types of bird toys available, so you can find one that is perfect for your bird's individual needs and interests."
+      },
+      {
+        "picture": "https://i.ibb.co/pxVSbNZ/pink-parakeet-bird-5.jpg",
+        "toy_name": "Pink Parakeet Bird",
+        "sub_category": "Bird Toy",
+        "seller_name": "Amazon",
+        "seller_email": "amazon@example.com",
+        "price": 30.00,
+        "rating": 4.0,
+        "available_quantity": 5,
+        "detail_description": "Bird toys are a great way to keep your feathered friend entertained and engaged. There are many different types of bird toys available, so you can find one that is perfect for your bird's individual needs and interests."
+      },
+      {
+        "picture": "https://i.ibb.co/t3TP0yx/soft-owl.jpg",
+        "toy_name": "Soft Owl",
+        "sub_category": "Bird Toy",
+        "seller_name": "Walmart",
+        "seller_email": "walmart@example.com",
+        "price": 10.00,
+        "rating": 5.0,
+        "available_quantity": 100,
+        "detail_description": "Bird toys are a great way to keep your feathered friend entertained and engaged. There are many different types of bird toys available, so you can find one that is perfect for your bird's individual needs and interests."
+      },
+      
+      {
+        "picture": "https://i.ibb.co/yRw7jsR/brown-teddy.jpg",
+        "toy_name": "brown-teddy",
+        "sub_category": "Teddy Toy",
+        "seller_name": "Amazon",
+        "seller_email": "amazon@example.com",
+        "price": 30.00,
+        "rating": 4.0,
+        "available_quantity": 5,
+        "detail_description": "Teddy bear is a stuffed toy in the form of a bear. Developed apparently simultaneously by toymakers Morris Michtom in the U.S. and Richard Steiff under his aunt Margarete Steiff's company in Germany in the early 20th century, the teddy bear, named after President Theodore Roosevelt, became a popular children's toy and has been celebrated in story, song, and film."
+      },
+      {
+        "picture": "https://i.ibb.co/D7VpT9T/doll.webp",
+        "toy_name": "Brown Doll",
+        "sub_category": "Teddy Toy",
+        "seller_name": "Walmart",
+        "seller_email": "walmart@example.com",
+        "price": 10.00,
+        "rating": 5.0,
+        "available_quantity": 100,
+        "detail_description": "Teddy bear is a stuffed toy in the form of a bear. Developed apparently simultaneously by toymakers Morris Michtom in the U.S. and Richard Steiff under his aunt Margarete Steiff's company in Germany in the early 20th century, the teddy bear, named after President Theodore Roosevelt, became a popular children's toy and has been celebrated in story, song, and film."
+      },
+      {
+        "picture": "https://i.ibb.co/3d2Jqrc/love-teddy.webp",
+        "toy_name": "Love Teddy",
+        "sub_category": "Teddy Toy",
+        "seller_name": "Amazon",
+        "seller_email": "amazon@example.com",
+        "price": 30.00,
+        "rating": 4.0,
+        "available_quantity": 5,
+        "detail_description": "Teddy bear is a stuffed toy in the form of a bear. Developed apparently simultaneously by toymakers Morris Michtom in the U.S. and Richard Steiff under his aunt Margarete Steiff's company in Germany in the early 20th century, the teddy bear, named after President Theodore Roosevelt, became a popular children's toy and has been celebrated in story, song, and film."
+      },
+      {
+        "picture": "https://i.ibb.co/D18QCBg/red-teddy-bear.jpg",
+        "toy_name": "Red Teddy Bear",
+        "sub_category": "Teddy Toy",
+        "seller_name": "Walmart",
+        "seller_email": "walmart@example.com",
+        "price": 10.00,
+        "rating": 5.0,
+        "available_quantity": 100,
+        "detail_description":"Teddy bear is a stuffed toy in the form of a bear. Developed apparently simultaneously by toymakers Morris Michtom in the U.S. and Richard Steiff under his aunt Margarete Steiff's company in Germany in the early 20th century, the teddy bear, named after President Theodore Roosevelt, became a popular children's toy and has been celebrated in story, song, and film."
+      }
+      
+    ]
+  

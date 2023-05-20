@@ -1,0 +1,59 @@
+[
+    {
+    "picture": "https://i.ibb.co/5GBHfx6/soft-elephant.webp",
+    "toy_name": "Stuffed elephant",
+    "sub_category": "Animal Toy",
+    "seller_name": "Toys R Us",
+    "seller_email": "toysrus@example.com",
+    "price": 40.00,
+    "rating": 4.5,
+    "available_quantity": 10,
+    "detail_description": "A stuffed elephant is a type of soft animal toy that is typically made of plush fabric and is shaped like an elephant. Stuffed elephants are popular among children of all ages and can be used for a variety of purposes, including playing, cuddling, and sleeping."
+  },
+  {
+    "picture": "https://i.ibb.co/xLdhVkD/bird-3.jpg",
+    "toy_name": "Long Peak Baby ",
+    "sub_category": "Bird Toy",
+    "seller_name": "Target",
+    "seller_email": "target@example.com",
+    "price": 20.00,
+    "rating": 5.0,
+    "available_quantity": 10,
+    "detail_description": "Bird toys are a great way to keep your feathered friend entertained and engaged. There are many different types of bird toys available, so you can find one that is perfect for your bird's individual needs and interests."
+  },
+  {
+    "picture": "https://i.ibb.co/1qkVGjh/sparrow-plus-bird-4.jpg",
+    "toy_name": "Sparrow-Plus-Bird",
+    "sub_category": "Bird Toy",
+    "seller_name": "Toys R Us",
+    "seller_email": "toysrus@example.com",
+    "price": 50.00,
+    "rating": 4.5,
+    "available_quantity": 10,
+    "detail_description": "Bird toys are a great way to keep your feathered friend entertained and engaged. There are many different types of bird toys available, so you can find one that is perfect for your bird's individual needs and interests."
+  },
+  {
+    "picture": "https://i.ibb.co/CwdyB2k/teddy-bear-sugar-kelp.jpg",
+    "toy_name": "Teddy Bear Sugar Kelp",
+    "sub_category": "Teddy Toy",
+    "seller_name": "Amazon",
+    "seller_email": "amazon@example.com",
+    "price": 30.00,
+    "rating": 4.0,
+    "available_quantity": 5,
+    "detail_description": "Teddy bear is a stuffed toy in the form of a bear. Developed apparently simultaneously by toymakers Morris Michtom in the U.S. and Richard Steiff under his aunt Margarete Steiff's company in Germany in the early 20th century, the teddy bear, named after President Theodore Roosevelt, became a popular children's toy and has been celebrated in story, song, and film."
+  },
+  {
+    "picture": "https://i.ibb.co/gFd17Hy/three-teddy.jpg",
+    "toy_name": "Three Teddy",
+    "sub_category": "Teddy Toy",
+    "seller_name": "Walmart",
+    "seller_email": "walmart@example.com",
+    "price": 10.00,
+    "rating": 5.0,
+    "available_quantity": 100,
+    "detail_description": "Teddy bear is a stuffed toy in the form of a bear. Developed apparently simultaneously by toymakers Morris Michtom in the U.S. and Richard Steiff under his aunt Margarete Steiff's company in Germany in the early 20th century, the teddy bear, named after President Theodore Roosevelt, became a popular children's toy and has been celebrated in story, song, and film."
+  }
+
+
+]
