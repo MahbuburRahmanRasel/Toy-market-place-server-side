@@ -50,6 +50,57 @@ async function run() {
       res.send(result);
     });
 
+    //get my toys
+    app.get("/mytoys/:email", async (req, res) => {
+      console.log(req.params.email);
+      const result = await addtoysCollection
+        .find({
+          email: req.params.email,
+        })
+        .toArray();
+      res.send(result);
+    });
+
+
+    app.get("/mytoys", async (req, res) => {
+      const result = await addtoysCollection.find().toArray();
+      res.send(result);
+    });
+
+    //delete a toy
+    app.delete("/mytoys/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await addtoysCollection.deleteOne(query);
+      res.send(result);
+    });
+
+    app.get("/addtoys/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await addtoysCollection.findOne(query);
+      res.send(result);
+    });
+
+    // update data
+    app.put("/addtoys/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) };
+      const options = { upsert: true };
+      const updatedToy = req.body;
+
+      const toy = {
+        $set: {
+          price: updatedToy.price,
+          quantity: updatedToy.quantity,
+          details: updatedToy.details
+        },
+      };
+
+      const result = await addtoysCollection.updateOne(filter, toy, options);
+      res.send(result);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
