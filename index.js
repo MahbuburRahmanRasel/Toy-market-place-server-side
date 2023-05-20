@@ -52,7 +52,6 @@ async function run() {
 
     //get my toys
     app.get("/mytoys/:email", async (req, res) => {
-      console.log(req.params.email);
       const result = await addtoysCollection
         .find({
           email: req.params.email,
@@ -61,9 +60,15 @@ async function run() {
       res.send(result);
     });
 
-
     app.get("/mytoys", async (req, res) => {
       const result = await addtoysCollection.find().toArray();
+      res.send(result);
+    });
+
+    app.get("/mytoy/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await addtoysCollection.findOne(query);
       res.send(result);
     });
 
@@ -93,7 +98,7 @@ async function run() {
         $set: {
           price: updatedToy.price,
           quantity: updatedToy.quantity,
-          details: updatedToy.details
+          details: updatedToy.details,
         },
       };
 
