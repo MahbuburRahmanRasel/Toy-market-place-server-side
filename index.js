@@ -23,10 +23,14 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
-    await client.connect();
+    // await client.connect();
 
     const toysCollection = client.db("toysDB").collection("toys");
     const addtoysCollection = client.db("toysDB").collection("addtoys");
+    const indexKeys = { toyname: 1 }; // Replace field1 and field2 with your actual field names
+    const indexOptions = { name: "toyCategory" }; // Replace index_name with the desired index name
+    const result = await addtoysCollection.createIndex(indexKeys, indexOptions);
+    console.log(result);
 
     //get all Toys (toysCollection)
     app.get("/toys", async (req, res) => {
@@ -62,17 +66,18 @@ async function run() {
 
     //get my toys
     app.get("/mytoys/:email", async (req, res) => {
-      console.log(req.params.email)
+      console.log(req.params.email);
       const result = await addtoysCollection
         .find({
           email: req.params.email,
         })
+        .sort({ price: -1 })
         .toArray();
       res.send(result);
     });
 
     app.get("/mytoys", async (req, res) => {
-      const result = await addtoysCollection.find().toArray();
+      const result = await addtoysCollection.find().limit(20).toArray();
       res.send(result);
     });
 
@@ -82,6 +87,22 @@ async function run() {
       const result = await addtoysCollection.findOne(query);
       res.send(result);
     });
+
+    //serach 
+    app.get("/getToysByText/:text", async (req, res) => {
+      const text = req.params.text;
+      const result = await addtoysCollection
+        .find({
+          $or: [
+            { toyname: { $regex: text, $options: "i" } }
+            
+          ],
+        })
+        .toArray();
+      res.send(result);
+    });
+
+
 
     //delete a toy
     app.delete("/mytoys/:id", async (req, res) => {
