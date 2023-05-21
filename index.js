@@ -62,6 +62,7 @@ async function run() {
 
     //get my toys
     app.get("/mytoys/:email", async (req, res) => {
+      console.log(req.params.email)
       const result = await addtoysCollection
         .find({
           email: req.params.email,
