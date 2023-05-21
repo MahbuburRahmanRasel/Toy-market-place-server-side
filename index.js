@@ -134,7 +134,6 @@ async function run() {
         },
       };
 
-      
       const result = await addtoysCollection.updateOne(filter, toy, options);
       res.send(result);
     });
