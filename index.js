@@ -28,18 +28,28 @@ async function run() {
     const toysCollection = client.db("toysDB").collection("toys");
     const addtoysCollection = client.db("toysDB").collection("addtoys");
 
-    //get all Toys
+    //get all Toys (toysCollection)
     app.get("/toys", async (req, res) => {
       const cursor = toysCollection.find();
       const result = await cursor.toArray();
       res.send(result);
     });
 
-    //get single toy
+    //get single toy (toysCollection)
     app.get("/toy/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: new ObjectId(id) };
       const result = await toysCollection.findOne(query);
+      res.send(result);
+    });
+
+    //get categoprical data (toysCollection)
+    app.get("/toys/:sub_category", async (req, res) => {
+      const result = await toysCollection
+        .find({
+          sub_category: req.params.sub_category,
+        })
+        .toArray();
       res.send(result);
     });
 
